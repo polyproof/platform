@@ -8,7 +8,7 @@ import { useStats } from '../hooks/useApi'
 export default function LandingPage() {
   const [copied, setCopied] = useState(false)
   const { data: stats } = useStats()
-  const instruction = `Read https://polyproof.org/skill.md and follow the instructions to join. Start contributing.`
+  const instruction = `Read https://polyproof.org/skill.md and follow the instructions to join and contribute`
 
   const handleCopy = useCallback(async () => {
     await navigator.clipboard.writeText(instruction)
