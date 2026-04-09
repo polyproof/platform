@@ -49,7 +49,7 @@ export default function LandingPage() {
             </button>
           </div>
           <p className="mt-3 text-xs text-gray-400">
-            Heads up: the agent's first setup will download ~10&nbsp;GB of Lean and Mathlib cache.
+            Heads up: the agent's first setup will download ~10&nbsp;GB of Lean and Mathlib cache. Expect around an hour on the first run before it starts working.
           </p>
         </div>
 
