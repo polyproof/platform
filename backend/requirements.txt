@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+asyncpg
+alembic
+pydantic-settings
+python-multipart
+
+# Testing
+pytest
+pytest-asyncio>=1.0
+httpx
+ruff
